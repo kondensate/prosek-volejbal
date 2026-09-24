@@ -1,0 +1,112 @@
+name: Automatická aktualizace rozpisu ČVS
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    paths:
+      - ".github/workflows/sync.yml"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stáhnout oficiální kalendáře ČVS
+        run: |
+          mkdir -p tmp
+
+          curl -L --fail -A "Mozilla/5.0" "https://cvf.cz/souteze/celostatni-souteze?clubDetailWidget-competitionId=18670&clubDetailWidget-teamId=93471&competitionId=18670&do=clubDetailWidget-ical&filteredGroupId=29231&mode=clubs&teamId=93471" -o tmp/u18.ics
+
+          curl -L --fail -A "Mozilla/5.0" "https://www.cvf.cz/souteze/celostatni-souteze?clubDetailWidget-competitionId=18666&clubDetailWidget-teamId=93392&competitionId=18666&do=clubDetailWidget-ical&filteredGroupId=29228&mode=clubs&teamId=93392" -o tmp/u20.ics
+
+          curl -L --fail -A "Mozilla/5.0" "https://cvf.cz/souteze/celostatni-souteze?clubDetailWidget-competitionId=18662&clubDetailWidget-teamId=93313&competitionId=18662&do=clubDetailWidget-ical&mode=clubs&teamId=93313" -o tmp/u22.ics
+
+          curl -L --fail -A "Mozilla/5.0" "https://cvf.cz/souteze/celostatni-souteze?clubDetailWidget-competitionId=18660&clubDetailWidget-teamId=93264&competitionId=18660&do=clubDetailWidget-ical&filteredGroupId=29153&mode=clubs&teamId=93264" -o tmp/muzi.ics
+
+      - name: Vygenerovat events.json
+        run: |
+          python3 - <<'PY'
+          import re,json,datetime,pathlib
+
+          cats=[
+            ("U18","tmp/u18.ics"),
+            ("U20","tmp/u20.ics"),
+            ("U22","tmp/u22.ics"),
+            ("Muži","tmp/muzi.ics")
+          ]
+
+          out=[]
+
+          def un(s):
+            return s.replace("\\n","\n").replace("\\, ",",").replace("\\,",",").replace("\\;",";").replace("\\\\","\\")
+
+          for cat,path in cats:
+            txt=pathlib.Path(path).read_text(errors="ignore").replace("\r\n","\n")
+            txt=re.sub(r"\n[ \t]","",txt)
+
+            for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT",txt,re.S):
+              vals={}
+
+              for line in block.split("\n"):
+                if ":" not in line:
+                  continue
+                k,v=line.split(":",1)
+                vals[k.split(";",1)[0]]=un(v)
+
+              s=vals.get("DTSTART","")
+              m=re.match(r"(\d{4})(\d{2})(\d{2})T?(\d{2})?(\d{2})?",s)
+
+              if not m:
+                continue
+
+              d=f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+              t=f"{m.group(4) or '00'}:{m.group(5) or '00'}"
+
+              summary=vals.get("SUMMARY","")
+
+              home="SK Prosek Praha" if "SK Prosek" in summary else ""
+              away=summary.replace(home,"").strip(" -–—") if home else summary
+
+              if "SK Prosek Praha" in summary:
+                parts=re.split(r"\s+[–—-]\s+",summary,1)
+                if len(parts)==2:
+                  home,away=parts
+
+              out.append({
+                "d":d,
+                "t":t,
+                "c":cat,
+                "type":"Extraliga" if cat in ("U18","U20","U22") else "2. liga muži",
+                "h":home,
+                "a":away,
+                "v":vals.get("LOCATION",""),
+                "uid":vals.get("UID",""),
+                "source":"https://www.cvf.cz/souteze/celostatni-souteze"
+              })
+
+          out.sort(key=lambda x:(x["d"],x["t"],x["c"]))
+
+          pathlib.Path("events.json").write_text(
+            json.dumps({
+              "updatedAt":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              "events":out
+            },ensure_ascii=False,indent=2)
+          )
+          PY
+
+      - name: Uložit změny
+        run: |
+          git config user.name "prosek-volejbal-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add events.json
+
+          git diff --cached --quiet || git commit -m "Aktualizace rozpisu ČVS"
+
+          git push
