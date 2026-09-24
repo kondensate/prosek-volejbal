@@ -1,18 +1,16 @@
 {
-  "updatedAt": "2026-09-24",
+  "updatedAt": "2026-09-24T22:26:12.072626+00:00",
   "events": [
     {
-      "d": "2026-09-26",
-      "t": "14:00",
-      "c": "U18",
-      "type": "Extraliga",
-      "h": "SK Prosek Praha B",
-      "a": "INLAB SK Meteor Praha",
+      "d": "2026-10-03",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "VK Benátky nad Jizerou B",
       "v": "SH SK Prosek",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze",
-      "detail": "",
-      "round": "",
-      "number": ""
+      "uid": "game-924308@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
       "d": "2026-10-03",
@@ -21,11 +19,20 @@
       "type": "Extraliga",
       "h": "VK Lvi Praha",
       "a": "SK Prosek Praha",
-      "v": "dle ČVS",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze",
-      "detail": "",
-      "round": "",
-      "number": ""
+      "v": "Sportovní hala Lužiny",
+      "uid": "game-930548@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-10-03",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "VK Benátky nad Jizerou B",
+      "v": "SH SK Prosek",
+      "uid": "game-924313@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
       "d": "2026-10-03",
@@ -34,11 +41,9 @@
       "type": "Extraliga",
       "h": "VK Ostrava",
       "a": "SK Prosek Praha",
-      "v": "dle ČVS",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze",
-      "detail": "",
-      "round": "",
-      "number": ""
+      "v": "Sportovní hala Lužiny",
+      "uid": "game-930550@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
       "d": "2026-10-04",
@@ -47,11 +52,9 @@
       "type": "Extraliga",
       "h": "SK Prosek Praha",
       "a": "VK Dukla Liberec",
-      "v": "dle ČVS",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze",
-      "detail": "",
-      "round": "",
-      "number": ""
+      "v": "Sportovní hala Lužiny",
+      "uid": "game-930553@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
       "d": "2026-10-04",
@@ -60,11 +63,9 @@
       "type": "Extraliga",
       "h": "VK Jirkov",
       "a": "SK Prosek Praha",
-      "v": "dle ČVS",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze",
-      "detail": "",
-      "round": "",
-      "number": ""
+      "v": "Sportovní hala Lužiny",
+      "uid": "game-930555@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
       "d": "2026-10-10",
@@ -73,11 +74,20 @@
       "type": "Extraliga",
       "h": "VK Brno",
       "a": "SK Prosek Praha",
-      "v": "dle ČVS",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze",
-      "detail": "",
-      "round": "",
-      "number": ""
+      "v": "Sportovní gymnázium Ludvíka Daňka",
+      "uid": "game-930492@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-10-10",
+      "t": "11:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "Falcons Modřany",
+      "a": "SK Prosek Praha",
+      "v": "TJ Sokol Modřany",
+      "uid": "game-924315@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
       "d": "2026-10-10",
@@ -86,11 +96,20 @@
       "type": "Extraliga",
       "h": "SK Volejbal Klatovy",
       "a": "SK Prosek Praha",
-      "v": "dle ČVS",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze",
-      "detail": "",
-      "round": "",
-      "number": ""
+      "v": "Sportovní gymnázium Ludvíka Daňka",
+      "uid": "game-930494@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-10-10",
+      "t": "15:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "Falcons Modřany",
+      "a": "SK Prosek Praha",
+      "v": "TJ Sokol Modřany",
+      "uid": "game-924320@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
       "d": "2026-10-11",
@@ -99,11 +118,9 @@
       "type": "Extraliga",
       "h": "SK Prosek Praha",
       "a": "Kladno volejbal cz",
-      "v": "dle ČVS",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze",
-      "detail": "",
-      "round": "",
-      "number": ""
+      "v": "Sportovní gymnázium Ludvíka Daňka",
+      "uid": "game-930497@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
       "d": "2026-10-11",
@@ -112,11 +129,20 @@
       "type": "Extraliga",
       "h": "AERO Odolena Voda",
       "a": "SK Prosek Praha",
-      "v": "dle ČVS",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze",
-      "detail": "",
-      "round": "",
-      "number": ""
+      "v": "Sportovní gymnázium Ludvíka Daňka",
+      "uid": "game-930499@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-10-17",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "USK Slavia Plzeň",
+      "v": "SH SK Prosek",
+      "uid": "game-924327@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
       "d": "2026-10-17",
@@ -125,11 +151,20 @@
       "type": "Extraliga",
       "h": "VK Ostrava",
       "a": "SK Prosek Praha",
-      "v": "dle ČVS",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze",
-      "detail": "",
-      "round": "",
-      "number": ""
+      "v": "TJ Slavia Hradec Králové",
+      "uid": "game-930289@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-10-17",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "USK Slavia Plzeň",
+      "v": "SH SK Prosek",
+      "uid": "game-924332@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
       "d": "2026-10-17",
@@ -138,11 +173,9 @@
       "type": "Extraliga",
       "h": "SK Volejbal Kolín",
       "a": "SK Prosek Praha",
-      "v": "dle ČVS",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze",
-      "detail": "",
-      "round": "",
-      "number": ""
+      "v": "TJ Slavia Hradec Králové",
+      "uid": "game-930291@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
       "d": "2026-10-18",
@@ -151,11 +184,339 @@
       "type": "Extraliga",
       "h": "SK Prosek Praha",
       "a": "TJ Slavia Hradec Králové",
-      "v": "dle ČVS",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze",
-      "detail": "",
-      "round": "",
-      "number": ""
+      "v": "TJ Slavia Hradec Králové",
+      "uid": "game-930293@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-10-31",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "TJ Praga",
+      "a": "SK Prosek Praha",
+      "v": "Sportovní hala DDM Praha 12 - Monet",
+      "uid": "game-924336@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-10-31",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "TJ Praga",
+      "a": "SK Prosek Praha",
+      "v": "Sportovní hala DDM Praha 12 - Monet",
+      "uid": "game-924341@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-11-07",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "VK Karlovarsko C",
+      "v": "SH SK Prosek",
+      "uid": "game-924346@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-11-07",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "VK Karlovarsko C",
+      "v": "SH SK Prosek",
+      "uid": "game-924351@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-11-14",
+      "t": "09:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "VSK Český Krumlov",
+      "a": "SK Prosek Praha",
+      "v": "ZŠ Za Nádražím Český Krumlov",
+      "uid": "game-924357@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-11-14",
+      "t": "13:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "VSK Český Krumlov",
+      "a": "SK Prosek Praha",
+      "v": "ZŠ Za Nádražím Český Krumlov",
+      "uid": "game-924362@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-11-28",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "TJ Netolice 1892",
+      "v": "SH SK Prosek",
+      "uid": "game-924365@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-11-28",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "TJ Netolice 1892",
+      "v": "SH SK Prosek",
+      "uid": "game-924370@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-12-05",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "Volejbal Sokolov",
+      "a": "SK Prosek Praha",
+      "v": "Jiskra",
+      "uid": "game-924378@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-12-05",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "Volejbal Sokolov",
+      "a": "SK Prosek Praha",
+      "v": "Jiskra",
+      "uid": "game-924383@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-12-12",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "VK Trox Příbram B",
+      "v": "SH SK Prosek",
+      "uid": "game-924384@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-12-12",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "VK Trox Příbram B",
+      "v": "SH SK Prosek",
+      "uid": "game-924389@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-01-09",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "VK Benátky nad Jizerou B",
+      "a": "SK Prosek Praha",
+      "v": "Nibe aréna,městská sportovní hala",
+      "uid": "game-924398@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-01-09",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "VK Benátky nad Jizerou B",
+      "a": "SK Prosek Praha",
+      "v": "Nibe aréna,městská sportovní hala",
+      "uid": "game-924403@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-01-16",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "Falcons Modřany",
+      "v": "SH SK Prosek",
+      "uid": "game-924405@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-01-16",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "Falcons Modřany",
+      "v": "SH SK Prosek",
+      "uid": "game-924410@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-01-23",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "USK Slavia Plzeň",
+      "a": "SK Prosek Praha",
+      "v": "Hala PF ZČU Plzeň",
+      "uid": "game-924417@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-01-23",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "USK Slavia Plzeň",
+      "a": "SK Prosek Praha",
+      "v": "Hala PF ZČU Plzeň",
+      "uid": "game-924422@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-01-30",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "TJ Praga",
+      "v": "SH SK Prosek",
+      "uid": "game-924426@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-01-30",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "TJ Praga",
+      "v": "SH SK Prosek",
+      "uid": "game-924431@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-02-06",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "VK Karlovarsko C",
+      "a": "SK Prosek Praha",
+      "v": "Hala Střední pedagogické školy",
+      "uid": "game-924436@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-02-06",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "VK Karlovarsko C",
+      "a": "SK Prosek Praha",
+      "v": "Hala Střední pedagogické školy",
+      "uid": "game-924441@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-02-20",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "VSK Český Krumlov",
+      "v": "SH SK Prosek",
+      "uid": "game-924447@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-02-20",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "VSK Český Krumlov",
+      "v": "SH SK Prosek",
+      "uid": "game-924452@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-02-27",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "TJ Netolice 1892",
+      "a": "SK Prosek Praha",
+      "v": "Sportovní hala TJ Netolice",
+      "uid": "game-924455@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-02-27",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "TJ Netolice 1892",
+      "a": "SK Prosek Praha",
+      "v": "Sportovní hala TJ Netolice",
+      "uid": "game-924460@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-03-13",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "Volejbal Sokolov",
+      "v": "SH SK Prosek",
+      "uid": "game-924468@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-03-13",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "SK Prosek Praha",
+      "a": "Volejbal Sokolov",
+      "v": "SH SK Prosek",
+      "uid": "game-924473@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-03-20",
+      "t": "10:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "VK Trox Příbram B",
+      "a": "SK Prosek Praha",
+      "v": "Tělocvična ZŠ Balbínova",
+      "uid": "game-924474@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2027-03-20",
+      "t": "14:00",
+      "c": "Muži",
+      "type": "2. liga muži",
+      "h": "VK Trox Příbram B",
+      "a": "SK Prosek Praha",
+      "v": "Tělocvična ZŠ Balbínova",
+      "uid": "game-924479@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     }
   ]
 }
