@@ -1,92 +1,48 @@
 <!doctype html>
-<html lang="cs">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#ffffff">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="apple-touch-icon" href="icon-192.png">
-<title>Prosek Volejbal</title>
+<html lang="cs"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f2f2f7"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png"><title>Prosek Volejbal</title>
 <style>
-:root{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",system-ui,sans-serif;color:#111;background:#f2f2f7}
-*{box-sizing:border-box}body{margin:0}.app{max-width:760px;margin:auto;min-height:100vh;background:#f2f2f7}
-header{position:sticky;top:0;z-index:3;background:rgba(255,255,255,.88);backdrop-filter:blur(18px);padding:calc(12px + env(safe-area-inset-top)) 16px 12px;border-bottom:1px solid #ddd}
-h1{font-size:30px;margin:0 0 12px}.bar{display:flex;gap:8px;align-items:center}.bar button{border:0;background:#e5e5ea;border-radius:10px;padding:9px 12px;font-weight:600}.month{flex:1;text-align:center;font-weight:700}
-.filters{display:flex;gap:7px;overflow:auto;padding:10px 16px}.filters button{white-space:nowrap;border:0;border-radius:18px;padding:8px 13px;background:#fff}.filters button.active{background:#111;color:#fff}
-.calendar{background:#fff;margin:0 12px 12px;border-radius:18px;padding:10px;box-shadow:0 1px 3px #0001}.week,.days{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}.week div{text-align:center;color:#777;font-size:12px;padding:5px 0}.day{min-height:55px;border-radius:10px;padding:5px;font-size:13px}.day.today{background:#e9e9ee}.day .n{font-weight:600}.dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin:2px}.events{padding:0 12px 40px}.event{background:#fff;border-radius:16px;padding:13px;margin:8px 0;box-shadow:0 1px 3px #0001}.event .top{display:flex;justify-content:space-between;color:#777;font-size:12px}.event b{display:block;font-size:16px;margin:6px 0}.event small{color:#666}.badge{display:inline-block;padding:3px 7px;border-radius:8px;background:#eee;font-weight:700;margin-right:5px}.note{margin:12px 16px;padding:12px;border-radius:14px;background:#fff3cd;color:#664d03;font-size:13px}
-</style>
-</head>
-<body><main class="app">
+:root{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",system-ui,sans-serif;color:#111;background:#f2f2f7}
+*{box-sizing:border-box}body{margin:0}.app{max-width:760px;margin:auto;min-height:100vh}
+header{position:sticky;top:0;z-index:5;background:#f8f8fccc;backdrop-filter:blur(18px);padding:calc(10px + env(safe-area-inset-top)) 16px 10px;border-bottom:1px solid #ddd}
+h1{font-size:30px;margin:0 0 10px}.bar{display:flex;gap:7px;align-items:center}.bar button{border:0;background:#e5e5ea;border-radius:10px;padding:8px 11px;font-weight:600}.month{flex:1;text-align:center;font-weight:700}
+.filters{display:flex;gap:7px;overflow:auto;padding:10px 16px}.filters button{border:0;border-radius:18px;padding:8px 13px;background:#fff;white-space:nowrap}.filters button.active{background:#111;color:#fff}
+.calendar{background:#fff;margin:0 12px 12px;border-radius:18px;padding:10px;box-shadow:0 1px 3px #0001}.week,.days{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}.week div{text-align:center;color:#777;font-size:12px;padding:5px 0}.day{min-height:62px;border-radius:10px;padding:5px;font-size:12px}.day.today{background:#e9e9ee}.day .n{font-weight:700}.evt{font-size:10px;line-height:12px;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.evt b{font-weight:700}
+.events{padding:0 12px 40px}.datehead{font-size:14px;font-weight:700;margin:18px 4px 6px}.event{background:#fff;border-radius:16px;padding:13px;margin:7px 0;box-shadow:0 1px 3px #0001}.top{display:flex;justify-content:space-between;color:#666;font-size:12px}.badge{display:inline-block;padding:3px 7px;border-radius:8px;background:#eee;font-weight:700;margin-right:5px}.event b{display:block;font-size:16px;margin:7px 0}.event small{color:#666}.status{font-size:12px;color:#666;padding:0 16px 8px}
+</style></head><body><main class="app">
 <header><h1>Prosek Volejbal</h1><div class="bar"><button onclick="move(-1)">‹</button><div class="month" id="month"></div><button onclick="move(1)">›</button><button onclick="today()">Dnes</button><button onclick="sync()">↻</button></div></header>
-<div class="filters" id="filters"></div>
+<div class="filters" id="filters"></div><div class="status" id="status"></div>
 <div class="calendar"><div class="week"><div>Po</div><div>Út</div><div>St</div><div>Čt</div><div>Pá</div><div>So</div><div>Ne</div></div><div class="days" id="days"></div></div>
-<div class="note">Rozpis je veden podle oficiálního ČVS. U utkání, která ČVS zveřejní později nebo změní, je potřeba data aktualizovat podle oficiálního kalendáře.</div>
-<section class="events"><h2>Události</h2><div id="events"></div></section>
+<section class="events"><h2>Turnaje a zápasy</h2><div id="events"></div></section>
 </main>
 <script>
-const matches = [
- {d:"2026-09-26",t:"10:00",c:"U18",h:"SK Prosek Praha B",a:"INLAB SK Meteor Praha",v:"SH SK Prosek"},
- {d:"2026-10-10",t:"10:00",c:"U20",h:"Brno",a:"SK Prosek Praha",v:"dle ČVS"},
- {d:"2026-10-10",t:"14:00",c:"U20",h:"SK Volejbal Klatovy",a:"SK Prosek Praha",v:"dle ČVS"},
- {d:"2026-10-17",t:"12:00",c:"U22",h:"VK Ostrava",a:"SK Prosek Praha",v:"dle ČVS"},
- {d:"2026-10-17",t:"14:00",c:"SK Prosek Praha",a:"SK Volejbal Kolín",v:"dle ČVS"},
- {d:"2026-10-18",t:"11:00",c:"U22",h:"SK Prosek Praha",a:"INLAB SK Meteor Praha A",v:"dle ČVS"},
- {d:"2026-10-31",t:"14:00",c:"Muži",h:"TJ Praga",a:"SK Prosek Praha",v:"dle ČVS"},
- {d:"2026-11-07",t:"10:00",c:"Muži",h:"SK Prosek Praha",a:"VK Karlovarsko C",v:"SH SK Prosek"},
- {d:"2026-11-14",t:"13:00",c:"Muži",h:"VSK Český Krumlov",a:"SK Prosek Praha",v:"dle ČVS"},
- {d:"2026-11-28",t:"10:00",c:"Muži",h:"SK Prosek Praha",a:"VK Trox Příbram B",v:"SH SK Prosek"},
- {d:"2026-12-12",t:"14:00",c:"Muži",h:"SK Prosek Praha",a:"TJ Netolice 1892",v:"SH SK Prosek"},
- {d:"2027-01-09",t:"10:00",c:"Muži",h:"VK Benátky nad Jizerou B",a:"SK Prosek Praha",v:"dle ČVS"},
- {d:"2027-01-16",t:"10:00",c:"Muži",h:"SK Prosek Praha",a:"Falcons Modřany",v:"SH SK Prosek"},
- {d:"2027-01-23",t:"10:00",c:"Muži",h:"USK Slavia Plzeň",a:"SK Prosek Praha",v:"dle ČVS"},
- {d:"2027-01-30",t:"10:00",c:"Muži",h:"SK Prosek Praha",a:"TJ Praga",v:"SH SK Prosek"},
- {d:"2027-02-06",t:"14:00",c:"Muži",h:"VK Karlovarsko C",a:"SK Prosek Praha",v:"dle ČVS"},
- {d:"2027-02-20",t:"10:00",c:"Muži",h:"SK Prosek Praha",a:"VSK Český Krumlov",v:"SH SK Prosek"},
- {d:"2027-02-27",t:"10:00",c:"Muži",h:"TJ Netolice 1892",a:"SK Prosek Praha",v:"dle ČVS"},
- {d:"2027-03-20",t:"10:00",c:"Muži",h:"VK Trox Příbram B",a:"SK Prosek Praha",v:"dle ČVS"},
- {d:"2027-03-13",t:"10:00",c:"Muži",h:"SK Prosek Praha",a:"Volejbal Sokolov",v:"SH SK Prosek"}
-];
-const API_URL = localStorage.getItem("prosekApi") || "";
-let current=new Date(); current.setDate(1); let filter="Vše";
-const cats=["Vše","U18","U20","U22","Muži"];
+const cats=["Vše","U18","U20","U22"];let filter="Vše", current=new Date();current.setDate(1);
+let matches=[];
+const fmtDate=s=>new Date(s+"T12:00:00").toLocaleDateString("cs-CZ",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+async function load(){
+ try{const r=await fetch("events.json?"+Date.now(),{cache:"no-store"});const j=await r.json();matches=(j.events||[]).filter(x=>["U18","U20","U22"].includes(x.c));document.getElementById("status").textContent="Aktualizováno: "+new Date(j.updatedAt).toLocaleString("cs-CZ");}
+ catch(e){matches=[];document.getElementById("status").textContent="Rozpis se nepodařilo načíst."}
+ render();
+}
+function sync(){load()}
+function move(n){current.setMonth(current.getMonth()+n);render()}function today(){current=new Date();current.setDate(1);render()}
 document.getElementById("filters").innerHTML=cats.map(c=>`<button class="${c==="Vše"?"active":""}" onclick="setFilter('${c}',this)">${c}</button>`).join("");
 function setFilter(c,b){filter=c;document.querySelectorAll(".filters button").forEach(x=>x.classList.remove("active"));b.classList.add("active");render()}
-function move(n){current.setMonth(current.getMonth()+n);render()} function today(){current=new Date();current.setDate(1);render()}
-function fmt(d){return new Intl.DateTimeFormat("cs-CZ",{day:"numeric",month:"long",year:"numeric"}).format(d)}
+function filtered(){return matches.filter(x=>filter==="Vše"||x.c===filter).sort((a,b)=>(a.d+a.t).localeCompare(b.d+b.t))}
 function render(){
  document.getElementById("month").textContent=new Intl.DateTimeFormat("cs-CZ",{month:"long",year:"numeric"}).format(current);
- const first=new Date(current.getFullYear(),current.getMonth(),1), last=new Date(current.getFullYear(),current.getMonth()+1,0);
- let start=(first.getDay()+6)%7, html=""; for(let i=0;i<start;i++)html+="<div></div>";
- for(let day=1;day<=last.getDate();day++){let ds=`${current.getFullYear()}-${String(current.getMonth()+1).padStart(2,"0")}-${String(day).padStart(2,"0")}`;let es=matches.filter(x=>x.d===ds&&(filter==="Vše"||x.c===filter));html+=`<div class="day ${ds===new Date().toISOString().slice(0,10)?"today":""}"><div class="n">${day}</div>${es.map(x=>`<span class="dot"></span>`).join("")}</div>`}
- document.getElementById("days").innerHTML=html;
- let list=matches.filter(x=>filter==="Vše"||x.c===filter).sort((a,b)=>a.d.localeCompare(b.d)||a.t.localeCompare(b.t));
- document.getElementById("events").innerHTML=list.map(x=>`<article class="event"><div class="top"><span><span class="badge">${x.c}</span>${new Date(x.d+"T12:00:00").toLocaleDateString("cs-CZ",{weekday:"short",day:"numeric",month:"numeric",year:"numeric"})}</span><span>${x.t}</span></div><b>${x.h} – ${x.a}</b><small>📍 ${x.v}</small></article>`).join("");
+ const first=new Date(current.getFullYear(),current.getMonth(),1),last=new Date(current.getFullYear(),current.getMonth()+1,0),start=(first.getDay()+6)%7;let h="";
+ for(let i=0;i<start;i++)h+="<div></div>";
+ for(let day=1;day<=last.getDate();day++){
+  const ds=`${current.getFullYear()}-${String(current.getMonth()+1).padStart(2,"0")}-${String(day).padStart(2,"0")}`;
+  const es=filtered().filter(x=>x.d===ds);h+=`<div class="day ${ds===new Date().toISOString().slice(0,10)?"today":""}"><div class="n">${day}</div>${es.slice(0,3).map(x=>`<div class="evt"><b>${x.t}</b> ${x.c}</div>`).join("")}</div>`;
+ }
+ document.getElementById("days").innerHTML=h;
+ const by={};filtered().forEach(x=>(by[x.d]??=[]).push(x));
+ document.getElementById("events").innerHTML=Object.entries(by).map(([d,es])=>`<div class="datehead">${fmtDate(d)}</div>${es.map(x=>`<article class="event"><div class="top"><span><span class="badge">${x.c}</span>${x.type||"Zápas"}</span><strong>${x.t}</strong></div><b>${x.h} – ${x.a}</b><small>📍 ${x.v||"Místo dle ČVS"}</small></article>`).join("")}`).join("")||"<p>Pro tuto kategorii nejsou načtené žádné události.</p>";
 }
-async function sync(){
-  if(!API_URL){alert("Automatická aktualizace je připravená. Do nastavení aplikace je potřeba zadat URL nasazeného /events API.");return}
-  try{
-    const r=await fetch(API_URL+"/events",{cache:"no-store"}); const data=await r.json();
-    if(Array.isArray(data.events)){
-      localStorage.setItem("prosekEvents",JSON.stringify(data.events));
-      location.reload();
-    }
-  }catch(e){alert("Aktualizaci se nepodařilo načíst.");}
-}
-const saved=localStorage.getItem("prosekEvents");
-if(saved){try{
-  const ev=JSON.parse(saved);
-  if(ev.length) {
-    matches.length=0;
-    for(const x of ev){
-      const s=x.start||"";
-      const m=s.match(/^(\\d{4})(\\d{2})(\\d{2})T(\\d{2})(\\d{2})/);
-      if(!m) continue;
-      matches.push({d:`${m[1]}-${m[2]}-${m[3]}`,t:`${m[4]}:${m[5]}`,c:x.category,h:x.summary||"SK Prosek Praha",a:"",v:x.location||""});
-    }
-  }
-}catch(e){}}
-render();
-if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+load();if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js");
 </script></body></html>
