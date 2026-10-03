@@ -1,50 +1,6 @@
 {
-  "updatedAt": "2026-10-03T06:48:25.286587+00:00",
+  "updatedAt": "2026-10-03T16:10:18.559792+00:00",
   "events": [
-    {
-      "d": "2026-10-03",
-      "t": "10:00",
-      "c": "Muži",
-      "type": "2. liga muži",
-      "h": "SK Prosek Praha",
-      "a": "VK Benátky nad Jizerou B",
-      "v": "SH SK Prosek",
-      "uid": "game-924308@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
-    {
-      "d": "2026-10-03",
-      "t": "10:00",
-      "c": "U18",
-      "type": "Extraliga",
-      "h": "VK Lvi Praha",
-      "a": "SK Prosek Praha",
-      "v": "Sportovní hala Lužiny",
-      "uid": "game-930548@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
-    {
-      "d": "2026-10-03",
-      "t": "14:00",
-      "c": "Muži",
-      "type": "2. liga muži",
-      "h": "SK Prosek Praha",
-      "a": "VK Benátky nad Jizerou B",
-      "v": "SH SK Prosek",
-      "uid": "game-924313@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
-    {
-      "d": "2026-10-03",
-      "t": "14:00",
-      "c": "U18",
-      "type": "Extraliga",
-      "h": "VK Ostrava",
-      "a": "SK Prosek Praha",
-      "v": "Sportovní hala Lužiny",
-      "uid": "game-930550@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
     {
       "d": "2026-10-04",
       "t": "09:00",
