@@ -1,28 +1,6 @@
 {
-  "updatedAt": "2026-10-04T03:53:09.930869+00:00",
+  "updatedAt": "2026-10-04T13:49:23.028951+00:00",
   "events": [
-    {
-      "d": "2026-10-04",
-      "t": "09:00",
-      "c": "U18",
-      "type": "Extraliga",
-      "h": "SK Prosek Praha",
-      "a": "VK Dukla Liberec",
-      "v": "Sportovní hala Lužiny",
-      "uid": "game-930553@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
-    {
-      "d": "2026-10-04",
-      "t": "13:00",
-      "c": "U18",
-      "type": "Extraliga",
-      "h": "VK Jirkov",
-      "a": "SK Prosek Praha",
-      "v": "Sportovní hala Lužiny",
-      "uid": "game-930555@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
     {
       "d": "2026-10-10",
       "t": "10:00",
