@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T06:42:25.840386+00:00",
+  "updatedAt": "2026-10-06T12:41:15.205292+00:00",
   "events": [
     {
       "d": "2026-10-10",
@@ -85,7 +85,7 @@
       "type": "Extraliga",
       "h": "VK Ostrava",
       "a": "SK Prosek Praha",
-      "v": "TJ Slavia Hradec Králové",
+      "v": "Speciální školy Hradec Králové",
       "uid": "game-930289@cvf.cz",
       "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
@@ -107,7 +107,7 @@
       "type": "Extraliga",
       "h": "SK Volejbal Kolín",
       "a": "SK Prosek Praha",
-      "v": "TJ Slavia Hradec Králové",
+      "v": "Speciální školy Hradec Králové",
       "uid": "game-930291@cvf.cz",
       "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
@@ -118,7 +118,7 @@
       "type": "Extraliga",
       "h": "SK Prosek Praha",
       "a": "TJ Slavia Hradec Králové",
-      "v": "TJ Slavia Hradec Králové",
+      "v": "Speciální školy Hradec Králové",
       "uid": "game-930293@cvf.cz",
       "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
