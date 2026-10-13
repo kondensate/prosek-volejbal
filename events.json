@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T06:48:50.008562+00:00",
+  "updatedAt": "2026-10-13T12:48:52.425409+00:00",
   "events": [
     {
       "d": "2026-10-17",
@@ -127,9 +127,9 @@
       "t": "10:00",
       "c": "Muži",
       "type": "2. liga muži",
-      "h": "SK Prosek Praha",
-      "a": "VK Karlovarsko C",
-      "v": "SH SK Prosek",
+      "h": "VK Karlovarsko C",
+      "a": "SK Prosek Praha",
+      "v": "Hala Střední pedagogické školy",
       "uid": "game-924346@cvf.cz",
       "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
@@ -138,9 +138,9 @@
       "t": "14:00",
       "c": "Muži",
       "type": "2. liga muži",
-      "h": "SK Prosek Praha",
-      "a": "VK Karlovarsko C",
-      "v": "SH SK Prosek",
+      "h": "VK Karlovarsko C",
+      "a": "SK Prosek Praha",
+      "v": "Hala Střední pedagogické školy",
       "uid": "game-924351@cvf.cz",
       "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
@@ -325,9 +325,9 @@
       "t": "10:00",
       "c": "Muži",
       "type": "2. liga muži",
-      "h": "VK Karlovarsko C",
-      "a": "SK Prosek Praha",
-      "v": "Hala Střední pedagogické školy",
+      "h": "SK Prosek Praha",
+      "a": "VK Karlovarsko C",
+      "v": "SH SK Prosek",
       "uid": "game-924436@cvf.cz",
       "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
@@ -336,9 +336,9 @@
       "t": "14:00",
       "c": "Muži",
       "type": "2. liga muži",
-      "h": "VK Karlovarsko C",
-      "a": "SK Prosek Praha",
-      "v": "Hala Střední pedagogické školy",
+      "h": "SK Prosek Praha",
+      "a": "VK Karlovarsko C",
+      "v": "SH SK Prosek",
       "uid": "game-924441@cvf.cz",
       "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
