@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T13:02:05.183945+00:00",
+  "updatedAt": "2026-10-14T19:00:17.008445+00:00",
   "events": [
     {
       "d": "2026-10-17",
@@ -135,6 +135,17 @@
     },
     {
       "d": "2026-11-07",
+      "t": "10:00",
+      "c": "U20",
+      "type": "Extraliga",
+      "h": "SK Prosek Praha",
+      "a": "VK Lvi Praha",
+      "v": "SH SK Prosek",
+      "uid": "game-956018@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-11-07",
       "t": "14:00",
       "c": "Muži",
       "type": "2. liga muži",
@@ -142,6 +153,39 @@
       "a": "SK Prosek Praha",
       "v": "Hala Střední pedagogické školy",
       "uid": "game-924351@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-11-07",
+      "t": "16:00",
+      "c": "U20",
+      "type": "Extraliga",
+      "h": "SK Prosek Praha",
+      "a": "VK Brno",
+      "v": "SH SK Prosek",
+      "uid": "game-956021@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-11-08",
+      "t": "11:00",
+      "c": "U20",
+      "type": "Extraliga",
+      "h": "SK Prosek Praha",
+      "a": "Blue Volley Ostrava",
+      "v": "SH SK Prosek",
+      "uid": "game-956024@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-11-08",
+      "t": "17:00",
+      "c": "U20",
+      "type": "Extraliga",
+      "h": "VK Jihostroj České Budějovice",
+      "a": "SK Prosek Praha",
+      "v": "SH SK Prosek",
+      "uid": "game-956027@cvf.cz",
       "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
