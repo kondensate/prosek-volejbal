@@ -1,28 +1,6 @@
 {
-  "updatedAt": "2026-10-17T12:54:43.504164+00:00",
+  "updatedAt": "2026-10-17T18:48:27.299330+00:00",
   "events": [
-    {
-      "d": "2026-10-17",
-      "t": "14:00",
-      "c": "Muži",
-      "type": "2. liga muži",
-      "h": "SK Prosek Praha",
-      "a": "USK Slavia Plzeň",
-      "v": "SH SK Prosek",
-      "uid": "game-924332@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
-    {
-      "d": "2026-10-17",
-      "t": "18:00",
-      "c": "U22",
-      "type": "Extraliga",
-      "h": "SK Volejbal Kolín",
-      "a": "SK Prosek Praha",
-      "v": "Speciální školy Hradec Králové",
-      "uid": "game-930291@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
     {
       "d": "2026-10-18",
       "t": "11:00",
