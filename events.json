@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T07:12:22.644682+00:00",
+  "updatedAt": "2026-10-19T13:05:14.955095+00:00",
   "events": [
     {
       "d": "2026-10-31",
@@ -146,6 +146,17 @@
     },
     {
       "d": "2026-11-14",
+      "t": "10:00",
+      "c": "U22",
+      "type": "Extraliga",
+      "h": "SK Prosek Praha",
+      "a": "VK Trox Příbram",
+      "v": "SH SK Prosek",
+      "uid": "game-956553@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-11-14",
       "t": "13:00",
       "c": "Muži",
       "type": "2. liga muži",
@@ -153,6 +164,28 @@
       "a": "SK Prosek Praha",
       "v": "ZŠ Za Nádražím Český Krumlov",
       "uid": "game-924362@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-11-14",
+      "t": "16:00",
+      "c": "U22",
+      "type": "Extraliga",
+      "h": "SK Prosek Praha",
+      "a": "SK Kojetín 2016",
+      "v": "SH SK Prosek",
+      "uid": "game-956555@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-11-15",
+      "t": "11:00",
+      "c": "U22",
+      "type": "Extraliga",
+      "h": "Spartak Velké Meziříčí",
+      "a": "SK Prosek Praha",
+      "v": "SH SK Prosek",
+      "uid": "game-956558@cvf.cz",
       "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
