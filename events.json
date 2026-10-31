@@ -1,28 +1,6 @@
 {
-  "updatedAt": "2026-10-31T12:44:41.375879+00:00",
+  "updatedAt": "2026-10-31T21:42:11.393733+00:00",
   "events": [
-    {
-      "d": "2026-10-31",
-      "t": "14:00",
-      "c": "Muži",
-      "type": "2. liga muži",
-      "h": "TJ Praga",
-      "a": "SK Prosek Praha",
-      "v": "Sportovní hala DDM Praha 12 - Monet",
-      "uid": "game-924341@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
-    {
-      "d": "2026-10-31",
-      "t": "16:00",
-      "c": "U18",
-      "type": "Extraliga",
-      "h": "SK Prosek Praha",
-      "a": "VSC Zlín",
-      "v": "SH SK Prosek",
-      "uid": "game-955768@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
     {
       "d": "2026-11-01",
       "t": "11:00",
