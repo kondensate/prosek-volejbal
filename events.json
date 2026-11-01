@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-11-01T17:57:38.219822+00:00",
+  "updatedAt": "2026-11-01T22:09:35.568719+00:00",
   "events": [
-    {
-      "d": "2026-11-01",
-      "t": "17:00",
-      "c": "U18",
-      "type": "Extraliga",
-      "h": "SK Kojetín 2016",
-      "a": "SK Prosek Praha",
-      "v": "SH SK Prosek",
-      "uid": "game-955774@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
     {
       "d": "2026-11-07",
       "t": "10:00",
