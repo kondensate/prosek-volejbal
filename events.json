@@ -1,28 +1,6 @@
 {
-  "updatedAt": "2026-11-07T13:14:55.774606+00:00",
+  "updatedAt": "2026-11-07T21:57:57.253474+00:00",
   "events": [
-    {
-      "d": "2026-11-07",
-      "t": "14:00",
-      "c": "Muži",
-      "type": "2. liga muži",
-      "h": "VK Karlovarsko C",
-      "a": "SK Prosek Praha",
-      "v": "Hala Střední pedagogické školy",
-      "uid": "game-924351@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
-    {
-      "d": "2026-11-07",
-      "t": "16:00",
-      "c": "U20",
-      "type": "Extraliga",
-      "h": "SK Prosek Praha",
-      "a": "VK Brno",
-      "v": "SH SK Prosek",
-      "uid": "game-956021@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
     {
       "d": "2026-11-08",
       "t": "11:00",
