@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T07:27:44.147245+00:00",
+  "updatedAt": "2026-11-10T19:50:28.472559+00:00",
   "events": [
     {
       "d": "2026-11-14",
@@ -135,6 +135,17 @@
     },
     {
       "d": "2026-12-05",
+      "t": "12:00",
+      "c": "U20",
+      "type": "Extraliga",
+      "h": "Spartak Velké Meziříčí",
+      "a": "SK Prosek Praha",
+      "v": "Mattoni Arena Hala míčových sportů",
+      "uid": "game-958635@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-12-05",
       "t": "14:00",
       "c": "Muži",
       "type": "2. liga muži",
@@ -142,6 +153,39 @@
       "a": "SK Prosek Praha",
       "v": "Jiskra",
       "uid": "game-924383@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-12-05",
+      "t": "18:00",
+      "c": "U20",
+      "type": "Extraliga",
+      "h": "VK Brno",
+      "a": "SK Prosek Praha",
+      "v": "Mattoni Arena Hala míčových sportů",
+      "uid": "game-958638@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-12-06",
+      "t": "13:00",
+      "c": "U20",
+      "type": "Extraliga",
+      "h": "SK Prosek Praha",
+      "a": "VK Lvi Praha",
+      "v": "Mattoni Arena Hala míčových sportů",
+      "uid": "game-958641@cvf.cz",
+      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
+    },
+    {
+      "d": "2026-12-06",
+      "t": "17:00",
+      "c": "U20",
+      "type": "Extraliga",
+      "h": "SK Prosek Praha",
+      "a": "VK Karlovarsko",
+      "v": "Mattoni Arena Hala míčových sportů",
+      "uid": "game-958643@cvf.cz",
       "source": "https://www.cvf.cz/souteze/celostatni-souteze"
     },
     {
