@@ -1,50 +1,6 @@
 {
-  "updatedAt": "2026-11-28T08:00:10.526068+00:00",
+  "updatedAt": "2026-11-28T20:16:55.088550+00:00",
   "events": [
-    {
-      "d": "2026-11-28",
-      "t": "10:00",
-      "c": "Muži",
-      "type": "2. liga muži",
-      "h": "SK Prosek Praha",
-      "a": "TJ Netolice 1892",
-      "v": "SH SK Prosek",
-      "uid": "game-924365@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
-    {
-      "d": "2026-11-28",
-      "t": "10:00",
-      "c": "U18",
-      "type": "Extraliga",
-      "h": "VK Jihostroj České Budějovice",
-      "a": "SK Prosek Praha",
-      "v": "ZŠ Oskara Nedbala České Budějovice",
-      "uid": "game-957955@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
-    {
-      "d": "2026-11-28",
-      "t": "14:00",
-      "c": "Muži",
-      "type": "2. liga muži",
-      "h": "SK Prosek Praha",
-      "a": "TJ Netolice 1892",
-      "v": "SH SK Prosek",
-      "uid": "game-924370@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
-    {
-      "d": "2026-11-28",
-      "t": "14:00",
-      "c": "U18",
-      "type": "Extraliga",
-      "h": "Green Volley Frýdek-Místek",
-      "a": "SK Prosek Praha",
-      "v": "ZŠ Oskara Nedbala České Budějovice",
-      "uid": "game-957957@cvf.cz",
-      "source": "https://www.cvf.cz/souteze/celostatni-souteze"
-    },
     {
       "d": "2026-11-29",
       "t": "09:00",
